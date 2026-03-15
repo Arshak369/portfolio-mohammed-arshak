@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mohammed Arshak - Software Developer (Microsoft Services)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * { box-sizing: border-box; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { margin: 0; background: #0f172a; color: #e5e7eb; }
+
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: radial-gradient(circle at top left, #1d4ed8, #020617);
+      padding: 24px 32px 32px;
+      border-bottom: 1px solid rgba(148,163,184,0.3);
+    }
+
+    .header-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .title-block h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 0.03em;
+    }
+
+    .title-block p {
+      margin: 4px 0 0;
+      color: #9ca3af;
+      font-size: 15px;
+    }
+
+    nav a {
+      margin-left: 16px;
+      font-size: 14px;
+      color: #cbd5f5;
+    }
+
+    nav a:first-child { margin-left: 0; }
+
+    .hero {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 24px 32px 32px;
+      display: grid;
+      grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.4fr);
+      gap: 24px;
+    }
+
+    @media (max-width: 800px) {
+      .hero { grid-template-columns: 1fr; }
+    }
+
+    .hero-main h2 {
+      margin: 0 0 12px;
+      font-size: 26px;
+    }
+
+    .hero-main p {
+      margin: 0 0 8px;
+      color: #cbd5f5;
+      font-size: 14px;
+    }
+
+    .badge-row { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .badge {
+      background: rgba(15,118,110,0.18);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #a5f3fc;
+      border: 1px solid rgba(45,212,191,0.4);
+    }
+
+    .hero-side {
+      border-radius: 16px;
+      padding: 16px 18px;
+      background: linear-gradient(145deg, rgba(15,23,42,0.9), rgba(15,118,110,0.45));
+      border: 1px solid rgba(148,163,184,0.5);
+      font-size: 14px;
+    }
+
+    .hero-side h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .hero-side div { margin-bottom: 4px; }
+    .label { color: #9ca3af; font-size: 13px; }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 32px 40px;
+    }
+
+    section { margin-top: 28px; }
+
+    h2.section-title {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .section-subtitle {
+      margin-top: 0;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    .card {
+      background: rgba(15,23,42,0.9);
+      border-radius: 12px;
+      padding: 18px 18px 16px;
+      border: 1px solid rgba(31,41,55,0.9);
+      margin-bottom: 14px;
+    }
+
+    .card h3 { margin-top: 0; margin-bottom: 4px; font-size: 16px; }
+    .card .meta { font-size: 13px; color: #9ca3af; margin-bottom: 8px; }
+
+    ul.tight { margin: 0; padding-left: 18px; }
+    ul.tight li { margin-bottom: 4px; font-size: 14px; }
+
+    .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(30,64,175,0.5);
+      font-size: 12px;
+      color: #e5e7eb;
+    }
+
+    footer {
+      border-top: 1px solid rgba(30,64,175,0.5);
+      text-align: center;
+      padding: 12px 16px 16px;
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="title-block">
+        <h1>Mohammed Arshak</h1>
+        <p>Software Developer (Microsoft Services) · Power Platform · Machine Learning · Cloud Infrastructure</p>
+      </div>
+      <nav>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-main">
+      <h2>Software Developer specialising in Microsoft Power Platform & ML</h2>
+      <p>
+        I am a Software Developer with 2+ years of IT experience, specialising in Microsoft Power Platform
+        (Power Apps & Power Automate), Machine Learning, and cloud-based production support.
+      </p>
+      <p>
+        With a Master's in Signal Processing and hands-on experience across banking, retail and insurance domains,
+        I design data-driven solutions, automate business processes, and optimise systems for reliability and performance.
+      </p>
+      <div class="badge-row">
+        <span class="badge">Power Apps &amp; Power Automate</span>
+        <span class="badge">Machine Learning (Python, CNN)</span>
+        <span class="badge">Cloud / Production Support</span>
+      </div>
+    </div>
+    <aside class="hero-side">
+      <h3>Quick Details</h3>
+      <div><span class="label">Name:</span> Mohammed Arshak</div>
+      <div><span class="label">Role:</span> Software Developer (Microsoft Services)</div>
+      <div><span class="label">Mobile:</span> <a href="tel:+918136827023">+91 81368 27023</a></div>
+      <div><span class="label">Email:</span> <a href="mailto:Mohammed.Arshak@ust.com">Mohammed.Arshak@ust.com</a></div>
+      <div><span class="label">Industry Experience:</span> Banking &amp; Retail (UK), Insurance (UK)</div>
+    </aside>
+  </section>
+
+  <main>
+    <section id="experience">
+      <h2 class="section-title">Professional Experience</h2>
+      <p class="section-subtitle">End-to-end solution development across Power Platform, Machine Learning, and cloud infrastructure.</p>
+
+      <div class="card">
+        <h3>Power Platform (Power Apps &amp; Power Automate)</h3>
+        <div class="meta">Low-code application development · Workflow automation · Microsoft 365 integration</div>
+        <ul class="tight">
+          <li>Proficient in building low-code applications using Power Apps (Canvas and Model-Driven Apps).</li>
+          <li>Automated business workflows using Power Automate to streamline approvals and notifications.</li>
+          <li>Integrated Power Apps with SharePoint, Excel, Dataverse, Outlook and other Microsoft 365 services.</li>
+          <li>Designed custom forms, galleries and responsive user interfaces using Power Apps formulas and controls.</li>
+          <li>Automated document approval processes and alerts using SharePoint Lists and Document Libraries.</li>
+          <li>Built approval workflows with conditional logic, parallel branches and adaptive email notifications.</li>
+          <li>Implemented PDF generation, document conversion and email automation using Power Automate connectors.</li>
+          <li>Developed full CRUD operations with SharePoint and SQL Server as data sources.</li>
+          <li>Integrated Power Apps with Power BI dashboards for data visualisation and real-time insights.</li>
+          <li>Created dynamic, role-based forms with conditional visibility and access control.</li>
+          <li>Applied best practices in app performance, version control and error handling using monitoring tools and logs.</li>
+          <li>Familiar with deploying solutions via Power Platform Admin Center and managing environments.</li>
+          <li>Built business apps such as Change Request Creation, Employee Management and Job Request applications.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Machine Learning &amp; Deep Learning</h3>
+        <div class="meta">Python · scikit-learn · TensorFlow · Keras · Computer Vision</div>
+        <ul class="tight">
+          <li>Developed and trained Machine Learning models using Python libraries such as scikit-learn, TensorFlow and Keras.</li>
+          <li>Designed and implemented Convolutional Neural Networks (CNNs) for image classification and object detection.</li>
+          <li>Performed data preprocessing: feature scaling, normalisation, image augmentation and noise reduction.</li>
+          <li>Built CNN models for real-time facial recognition, object detection and image-based document classification.</li>
+          <li>Applied dropout, batch normalization and pooling techniques to improve generalisation and reduce overfitting.</li>
+          <li>Worked with Jupyter Notebook and Google Colab for model development, visualisation and experimentation.</li>
+          <li>Integrated trained ML/CNN models into real-world applications using APIs and Python-based backends.</li>
+          <li>Handled large datasets with Pandas and NumPy, and used OpenCV / Pillow for image processing.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Cloud Infrastructure &amp; Production Support</h3>
+        <div class="meta">Monitoring · Incident management · Performance optimisation</div>
+        <ul class="tight">
+          <li>Managed and optimised cloud infrastructure to enhance system performance and scalability.</li>
+          <li>Implemented and maintained cloud-based solutions to support business operations.</li>
+          <li>Provided production support with a focus on uptime, reliability and incident response.</li>
+          <li>Monitored networks and systems using SolarWinds and Airwave, managing alerts and troubleshooting issues.</li>
+          <li>Used Salesforce Remedy for ticketing, incident tracking and service management.</li>
+          <li>Worked with tools such as NetApp, Adestra, VROps, SQL Monitoring, Splunk and Commvault.</li>
+          <li>Analysed system performance metrics to identify bottlenecks and propose improvements.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Academic &amp; Technical Projects</h2>
+      <p class="section-subtitle">Applying deep learning and security concepts to real-world problems.</p>
+
+      <div class="card">
+        <h3>Data Augmentation for Automatic Voice Disorder Detection</h3>
+        <div class="meta">Convolutional Neural Networks · Audio Processing · Healthcare</div>
+        <ul class="tight">
+          <li>Developed a system for pathological voice detection using convolutional neural networks.</li>
+          <li>Augmented limited voice datasets to increase data diversity and improve model robustness.</li>
+          <li>Employed deep learning-based classification for automated voice disorder detection.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Plant Disease Detection using CNN</h3>
+        <div class="meta">Computer Vision · Agriculture · Deep Learning</div>
+        <ul class="tight">
+          <li>Built a CNN-based model to detect and classify plant leaf diseases.</li>
+          <li>Achieved approximately 90% classification accuracy on test datasets.</li>
+          <li>Demonstrated potential for early disease identification to support farmers and crop protection.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Fingerprint Based Security System for ATM</h3>
+        <div class="meta">Biometrics · Embedded Security · Banking</div>
+        <ul class="tight">
+          <li>Designed a biometric security system combining fingerprint authentication with traditional ATM PIN.</li>
+          <li>Implemented fingerprint matching and detection for enhanced transaction security.</li>
+          <li>Showcased a multi-factor authentication approach to reduce fraud in ATM usage.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <p class="section-subtitle">Technologies and domains I work with.</p>
+
+      <div class="card">
+        <h3>Core Technologies</h3>
+        <div class="pill-row">
+          <span class="pill">Microsoft Power Apps</span>
+          <span class="pill">Power Automate</span>
+          <span class="pill">Machine Learning</span>
+          <span class="pill">Python</span>
+          <span class="pill">Digital Image Processing</span>
+          <span class="pill">Audio Processing</span>
+          <span class="pill">VLSI</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Networking &amp; Support</h3>
+        <div class="pill-row">
+          <span class="pill">Networking</span>
+          <span class="pill">Security</span>
+          <span class="pill">Production Support</span>
+          <span class="pill">SolarWinds</span>
+          <span class="pill">Airwave</span>
+          <span class="pill">NetApp</span>
+          <span class="pill">Adestra</span>
+          <span class="pill">VROps</span>
+          <span class="pill">SQL Monitoring</span>
+          <span class="pill">Splunk</span>
+          <span class="pill">Commvault</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Domains</h3>
+        <div class="pill-row">
+          <span class="pill">Banking (UK)</span>
+          <span class="pill">Retail (UK)</span>
+          <span class="pill">Insurance (UK)</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="card">
+        <h3>Master of Technology (M.Tech) - Electronics and Communication</h3>
+        <div class="meta">Specialisation: Signal Processing</div>
+      </div>
+
+      <div class="card">
+        <h3>Bachelor of Technology (B.Tech) - Electrical and Electronics Engineering</h3>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2 class="section-title">Certifications</h2>
+
+      <div class="card">
+        <ul class="tight">
+          <li>Microsoft Azure Fundamentals – Certification No: <strong>65AC1D-C58BO7</strong></li>
+          <li>Microsoft Azure AI Fundamentals – Certification No: <strong>0E9E3C-Q647D2</strong></li>
+          <li>Python (G-Tech)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Feel free to reach out for roles in Power Platform development, ML-based solutions, or cloud/production support.</p>
+
+      <div class="card">
+        <ul class="tight">
+          <li><strong>Mobile:</strong> <a href="tel:+918136827023">+91 81368 27023</a></li>
+          <li><strong>Email:</strong> <a href="mailto:Mohammed.Arshak@ust.com">Mohammed.Arshak@ust.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> Mohammed Arshak. Portfolio generated from professional profile details.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
